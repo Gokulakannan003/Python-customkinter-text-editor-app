@@ -4,7 +4,7 @@ from tkinter.filedialog import *
 
 root = CTk()
 
-root.title("Notepad")
+root.title("Text editor")
 root.geometry("600x600")
 root.configure(border=2, borderwidth=2)
 
