@@ -10,6 +10,7 @@ root.configure(border=2, borderwidth=2)
 
 menu = CTkMenuBar(master=root)
 b1 = menu.add_cascade("File")
+menu.configure(corner_radius=9, bg_color="brown")
 
 def save_as():
     filepath = asksaveasfilename(filetypes=[("Text File", "*.txt"), ("Python File", "*.py"),
@@ -51,7 +52,7 @@ d1.add_option("Save", command=save_as)
 d1.add_option("Exit", command=root.destroy)
 
 
-text = CTkTextbox(root, font=("Ariel", 18, "bold"), border_color="Brown", border_width=2)
+text = CTkTextbox(root, font=("Ariel", 18, "bold"), border_color="Brown", border_width=4)
 text.pack(fill=BOTH, expand=True)
 
 root.mainloop()
