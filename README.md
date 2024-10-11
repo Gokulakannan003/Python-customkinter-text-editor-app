@@ -1,2 +1,2 @@
 # Python-customkinter-text-editor-app
-![Screenshot 2024-09-30 160519](https://github.com/user-attachments/assets/fcd84a6e-69ef-408c-8bb7-5d9262e1c053)
+![Screenshot 2024-10-11 122631](https://github.com/user-attachments/assets/55ed4756-eb6f-4127-95ac-a87d8185f5fa)
